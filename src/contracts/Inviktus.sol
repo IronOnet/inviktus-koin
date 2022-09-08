@@ -86,7 +86,7 @@ contract InviktusToken{
        send `_value`tokens to `to`on behalf of `_from */ 
        function transferFrom(address _from, address _to, uint256 _value) public returns(bool success){
         require(_value <= allowance[_from][msg.sender]); // check allowance 
-        allowance[_from][msg.sender] -= value; 
+        allowance[_from][msg.sender] -= _value; 
         _transfer(_from, _to, _value); 
         return true; 
        }
