@@ -1,17 +1,25 @@
 # inviktus-koin
-A crypto currency token built with Solidity  
+An ERC-20 token that is backed by USD dollars and other assets and provide to its 
+users the means to exchange value on the internet with minimal interferance from banks 
+or other
 
 
 ## What is Inviktus-Koin 
 
-## Inviktus-Moja vs Inviktus-Pili
+Inviktus-Koin is an ERC-20 token backed 1 for 1 by USD dollars, this token will be 
+used to trade other digital currency in an crypto-currency exchange, users will 
+purchase the token in an OTC market where they will exchange cash for the equivalent in Inviktus and will then deposit the token in the exchange 
+to trade it for other crypto currency and will also be able to redeem the equivalent in cash if so they wish, since it's currently almost impossible to interoperate with most bank payment systems in the D.R.C
 
-Inviktus is a system of two coins that interact with each other via USDC. these coins are **Inviktus-Moja** and **Inviktus-Pili**. **Inviktus-Moja** is an index coind that tracks the value of two other coins **Inviktus-Pili** and **USDC coin**.
+## Wallet 
 
-**USDC coin** is a stable coin emited by [Circle](www.circle.com) and [Coinbase](www.coinbase.com) **USDC coin** is pegged to one USD dollar, that means its value cannot increase or decrease.
+The inviktus token is an ERC-20 token, wich means that it is compatible with most 
+ethereum wallets in the market. 
 
+## Disclaimer 
 
-**Inviktus-Pili** is traded in the market against the dollar or (ethereum) if it's value increases or decreases relative to the dollar the value **
+This project is a toy project that I'm building on my spare time, to improve my mastery of 
+blockchain and smart contract development, don't use this in the real world. 
 
 
 
